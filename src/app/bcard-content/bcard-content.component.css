@@ -6,30 +6,47 @@ This is the bottom section of the Biz card
 
  */
 
+ /* NOTE:  Containers
+ */
 
+ .contact-container {
+   text-align: center;
+   padding: 3%;
+   box-shadow: 0 0 10px 4px rgba(144,144,144,.3);
+ }
+
+ .contact-container a {
+   color: black;
+   text-decoration: none;
+ }
+
+
+/* NOTE:  ICONS
+*/
+ .contact-list {
+   padding: 1%;
+ }
 .contact-list li {
   text-decoration: none;
   list-style-type: none;
-  margin-top: 5%;
   padding: 5%;
 }
 
 .icons {
-  width: 10%;
+  width: 15%;
   margin-right: 5%;
 }
 
-.contact-container {
-  text-align: center;
-  padding: 3%;
-  box-shadow: 0 0 10px 4px rgba(144,144,144,.3);
+.contact-list span {
+  font-size: 1.5em;
+  margin: auto;
+  box-sizing: content-box;
+
 }
 
-.contact-container a {
-  color: black;
-  text-decoration: none;
-}
 
+/* NOTE: Share buttons right-hand side
+ */
 .action-buttons {
   position: fixed;
   left: 70%;
