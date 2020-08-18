@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoadingPageComponent implements OnInit {
 
-  constructor() { }
+    constructor() { }
 
-  ngOnInit(): void {
-  }
-
+    ngOnInit(): void {
+    }
+    
 }
