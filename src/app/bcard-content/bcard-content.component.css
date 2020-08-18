@@ -31,17 +31,19 @@ This is the bottom section of the Biz card
    padding: 1%;
  }
 .contact-list li {
-  text-decoration: none;
   list-style-type: none;
   padding: 5%;
+  text-align: left;
+  display: inline-flex;
 }
 
 .icons {
   width: 15%;
+  margin: auto;
   margin-right: 5%;
 }
 
-.contact-list span {
+.contact-list p {
   font-size: 1.5em;
   margin: auto;
   box-sizing: content-box;
@@ -53,13 +55,17 @@ This is the bottom section of the Biz card
  */
 .action-buttons {
   position: fixed;
-  left: 70%;
+  left: 80%;
   top: 70%;
 }
 
 .action-buttons img {
-  width: 50%;
+  width: 75%;
   display: block;
-  margin: 15% 0;
+  margin: 30% 0;
   padding: 7% 0;
+}
+
+.space {
+  padding: 5%;
 }
