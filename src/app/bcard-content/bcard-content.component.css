@@ -39,11 +39,11 @@ This is the bottom section of the Biz card
 
 .icons {
   width: 15%;
-  height: auto;
+  height: 15%;
   margin: 0 5% 0 0;
 }
 
-.contact-list p {
+.contact-list span {
   font-size: 1.5em;
   box-sizing: content-box;
 
@@ -55,14 +55,15 @@ This is the bottom section of the Biz card
 .action-buttons {
   position: fixed;
   left: 80%;
-  top: 70%;
+  top: 60%;
 }
 
 .action-buttons img {
   width: 75%;
   display: block;
-  margin: 30% 0;
-  padding: 7% 0;
+  margin: 10% 0;
+  padding: 10%;
+  border-radius: 50%;
 }
 
 .space {
