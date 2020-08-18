@@ -24,15 +24,6 @@ export class BcardContentComponent implements OnInit {
 
 
 
-  openUp(x): string {
-    try {
-      let l = x;
-      let link = 'https://'+ l + '.com';
-      window.open(link);
-      return 'linked';
-    } catch (e) {
-        return(e);
-    }
-  }
+
 
 }
