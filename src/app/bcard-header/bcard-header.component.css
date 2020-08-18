@@ -9,7 +9,7 @@ This is the top section of the Biz card
 
 .header-container {
   text-align: center;
-  padding: 15% 3%;
+  padding: 10% 3%;
   background-color: rgb(65, 65, 65);
   color: white;
 }
@@ -24,9 +24,10 @@ This is the top section of the Biz card
 }
 
 #name {
-  font-size: 1.3em;
+  font-size: 1.7em;
 }
 
 #title {
-  font-weight: 900;
+  font-weight: 100;
+  margin-top: 30px;
 }

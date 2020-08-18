@@ -6,22 +6,31 @@ This is the bottom section of the Biz card
 
  */
 
- /* NOTE:  Containers
+ /*
+    NOTE:  Containers
  */
+
+ .biz-container {
+   position: relative;
+   top: -40px;
+   width: 100%;
+   text-align: center;
+   padding: 3%;
+   /* margin: 0; */
+   background-color: white;
+   box-shadow: 0 0 10px 4px rgba(144,144,144,.7);
+   box-sizing: border-box;
+ }
+ .biz-container h3 {
+   font-size: 1.5em;
+   margin: auto;
+ }
+
 
  .contact-container {
    position: relative;
-   top: -30px;
-   text-align: center;
-   padding: 7% 3%;
+   top: -20px;
    background-color: white;
-   color: rgb(65, 65, 65);
-   box-shadow: 0 0 10px 4px rgba(144,144,144,.7);
- }
-
- .contact-container a {
-   color: black;
-   text-decoration: none;
  }
 
 
@@ -31,6 +40,7 @@ TOP icons
 */
  .contact-list {
    padding: 1%;
+   margin:
  }
 .contact-list li {
   list-style-type: none;
@@ -48,10 +58,19 @@ TOP icons
 .contact-list span {
   font-size: 1.5em;
   box-sizing: content-box;
-
+  margin: auto 0;
+  text-align: left;
 }
 /*
 END TOP icons
+*/
+
+
+
+
+/*
+Start:
+BOTTOM icons
 */
 
 .social-list {
@@ -69,29 +88,15 @@ END TOP icons
    height: 80% !important;
  }
 
+ /*
+ END:
+ BOTTOM icons
+ */
+
 
 /*
-Start:
-TOP icons
-*/
-
-/*
-END BOTTOM icons
-*/
-
-
-.contact-list {
-  padding: 1%;
-}
-.contact-list li {
- list-style-type: none;
- padding: 5%;
- text-align: left;
- display: inline-flex;
-}
-
-
-/* NOTE: Share buttons right-hand side
+START
+Share buttons right-hand side
  */
 .action-buttons {
   position: fixed;
@@ -106,7 +111,37 @@ END BOTTOM icons
   padding: 10%;
   border-radius: 50%;
 }
+/*
+END BOTTOM icons
+*/
 
-.space {
-  padding: 5%;
+/*
+Start
+Contact Div
+*/
+
+.contact-btn {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  /* padding: 7%; */
+  /* margin: 0; */
+  background-color: rgb(65, 65, 65);
+  box-shadow: 0 0 10px 4px rgba(144,144,144,.7);
+}
+
+ .contact-btn a {
+   color: white;
+   text-decoration: none;
+   margin: auto;
+ }
+
+
+/*
+END Contact Div
+*/
+
+.spacer {
+  height: 50px;
 }
