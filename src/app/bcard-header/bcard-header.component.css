@@ -1,0 +1,27 @@
+
+/*
+
+This is the top section of the Biz card
+  the saying is the last part of this section
+
+ */
+
+
+.header-container {
+  text-align: center;
+  margin: 4% 0;
+  padding: 3%;
+}
+
+.pic {
+  width: 45%;
+  border-radius: 50%;
+}
+
+#name {
+  font-size: 1.3em;
+}
+
+#title {
+  font-weight: 900;
+}

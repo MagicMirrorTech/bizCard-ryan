@@ -17,4 +17,9 @@ export class BcardContentComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+  getVcard(): void {
+    window.open('../assets/cards/ryan.vcf');
+  }
+
 }
