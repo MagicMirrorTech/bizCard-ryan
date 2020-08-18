@@ -9,8 +9,9 @@ This is the top section of the Biz card
 
 .header-container {
   text-align: center;
-  margin: 4% 0;
-  padding: 3%;
+  padding: 15% 3%;
+  background-color: rgb(65, 65, 65);
+  color: white;
 }
 
 .pic {
