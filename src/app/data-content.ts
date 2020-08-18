@@ -5,7 +5,7 @@ export const DATA: Data[] = [
     name: 'Ryan Unkown',
     title: 'Chief Consultant',
     slogan: 'Per Aspera Ad Astra',
-    mobile: '(720)512-1234',
+    mobile: '(720) 512-1234',
     email: 'email@example.com',
     calLink: 'ryanLink',
     fbLink: 'fbRyan',
