@@ -13,7 +13,7 @@ This is the bottom section of the Biz card
    position: relative;
    top: -30px;
    text-align: center;
-   padding: 3%;
+   padding: 7% 3%;
    background-color: white;
    color: rgb(65, 65, 65);
    box-shadow: 0 0 10px 4px rgba(144,144,144,.7);
@@ -25,7 +25,9 @@ This is the bottom section of the Biz card
  }
 
 
-/* NOTE:  ICONS
+/*
+Start:
+TOP icons
 */
  .contact-list {
    padding: 1%;
@@ -38,7 +40,7 @@ This is the bottom section of the Biz card
 }
 
 .icons {
-  width: 15%;
+  width: 12%;
   height: 15%;
   margin: 0 5% 0 0;
 }
@@ -47,6 +49,45 @@ This is the bottom section of the Biz card
   font-size: 1.5em;
   box-sizing: content-box;
 
+}
+/*
+END TOP icons
+*/
+
+.social-list {
+  padding: 1%;
+  display: flex;
+}
+.social-list li {
+   list-style-type: none;
+   padding: 5%;
+   width: 100%;
+ }
+
+ .social-list li img {
+   width: 80% !important;
+   height: 80% !important;
+ }
+
+
+/*
+Start:
+TOP icons
+*/
+
+/*
+END BOTTOM icons
+*/
+
+
+.contact-list {
+  padding: 1%;
+}
+.contact-list li {
+ list-style-type: none;
+ padding: 5%;
+ text-align: left;
+ display: inline-flex;
 }
 
 

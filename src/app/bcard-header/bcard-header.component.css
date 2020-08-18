@@ -14,9 +14,13 @@ This is the top section of the Biz card
   color: white;
 }
 
-.pic {
+.portrait {
   width: 45%;
   border-radius: 50%;
+}
+
+.header-info {
+  margin: 5% 0;
 }
 
 #name {

@@ -22,4 +22,17 @@ export class BcardContentComponent implements OnInit {
     window.open('../assets/cards/ryan.vcf');
   }
 
+
+
+  openUp(x): string {
+    try {
+      let l = x;
+      let link = 'https://'+ l + '.com';
+      window.open(link);
+      return 'linked';
+    } catch (e) {
+        return(e);
+    }
+  }
+
 }

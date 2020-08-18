@@ -6,10 +6,20 @@
 
   <div class="">
     <ul class="contact-list">
-      <li><img class="icons" src="../../assets/icons/mobile.svg" alt="phone icon"><span>{{data[0].mobile}}</span></li> <!-- IDEA: click to send message -->
-      <li><img class="icons" src="../../assets/icons/email-chic.svg" alt="email icon"> <span>{{data[0].email}}</span></li> <!-- IDEA: click to send email -->
-      <li><img class="icons" src="../../assets/icons/instagram.svg" alt="social icons"> <span>{{data[0].instaLink}}</span></li> <!-- IDEA: click to go to app -->
-      <li><img class="icons" src="../../assets/icons/facebook-inverted.svg" alt="social icons"> <span>{{data[0].fbLink}}</span> </li> <!-- IDEA: click to go to app -->
+      <li (click)="data[0].mobile"><img class="icons" src="../../assets/icons/mobile.svg" alt="phone icon"><span>{{data[0].mobile}}</span></li> <!-- IDEA: click to send message -->
+      <li (click)="openUp(instagram)"><img class="icons" src="../../assets/icons/email-chic.svg" alt="email icon"> <span>{{data[0].email}}</span></li> <!-- IDEA: click to send email -->
+      <li (click)="openUp(instagram)"><img class="icons" src="../../assets/icons/globe.svg" alt="social icons"> <span>{{data[0].website}}</span></li> <!-- IDEA: click to go to app -->
+      <li (click)="openUp(instagram)"><img class="icons" src="../../assets/icons/facebook-inverted.svg" alt="social icons"> <span>{{data[0].fbLink}}</span> </li> <!-- IDEA: click to go to app -->
+    </ul>
+  </div>
+
+  <hr>
+
+  <div >
+    <ul class="social-list">
+      <li><img class="icons" src="../../assets/icons/insta-color.svg" alt="social icons"> </li> <!-- IDEA: click to go to app -->
+      <li><img class="icons" src="../../assets/icons/facebook-color.svg" alt="social icons">  </li> <!-- IDEA: click to go to app -->
+      <li><img class="icons" src="../../assets/icons/linkedin-color.svg" alt="social icons">  </li> <!-- IDEA: click to go to app -->
     </ul>
   </div>
 
