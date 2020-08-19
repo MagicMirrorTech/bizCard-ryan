@@ -1,8 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Data } from "../data";
-// import { INFO } from "../data.service";
-
 @Component({
   selector: 'app-bcard',
   templateUrl: './bcard.component.html',
@@ -10,18 +7,9 @@ import { Data } from "../data";
 })
 export class BcardComponent implements OnInit {
 
-
-
-  constructor (
-    // private dataService: DataService
-  ) { }
+  constructor () { }
 
   ngOnInit(): void {
-    // this.getData();
   }
-
-  // getData() {
-  //   data: INFO[] = [];
-  // }
 
 }

@@ -21,7 +21,7 @@ export const DATA: Data[] = [
     title: 'Chief Consultant',
     biz: 'Best Deal In Town',
     slogan: 'Be The Best Electronic Store',
-    mobile: '(720)512-1234',
+    mobile: '(720) 512-1234',
     bizPhone: '(303) 593-0581',
     email: 'email@example.com',
     bizEmail: 'bizEmail@example.com',

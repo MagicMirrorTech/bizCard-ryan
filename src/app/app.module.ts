@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { Data } from "./data";
+import { DATA } from "./data-content";
+
 import { AppComponent } from './app.component';
 import { BcardComponent } from './bcard/bcard.component';
 import { BcardHeaderComponent } from './bcard-header/bcard-header.component';
